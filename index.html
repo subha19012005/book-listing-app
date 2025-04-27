@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>BOOKLI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>BookLi</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>RICH DAD POOR DAD</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero laudantium sequi, possimus unde vel maiores ea in omnis nam id commodi voluptates assumenda tempora consectetur asperiores laborum aperiam adipisci rem pariatur voluptas, dignissimos quas illum debitis soluta. Voluptate minus velit consectetur, vero deleniti ut quo? Voluptate sequi accusantium laudantium alias.</p>
+
+
+          <button onclick="del(event)">Delete</button>
+        </div>
+
+    </div>
+    <div class="overlay"></div> 
+    <div class="popup">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input"><br>
+
+        <input type="text" placeholder="Book Author" id="book-author">
+        <textarea placeholder="book description" id="book-description"></textarea>
+
+            
+            <button type="button" id="add-book">ADD</button>
+            <button type="button" id="cancel-book">CANCEL</button>
+        </form>
+    </div>
+   <button class="add-button" id="add-popup" >+</button>
+   <script src="script.js"></script>
+</body>
+</html>
